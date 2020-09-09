@@ -8,5 +8,5 @@ import { FormsModule } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bigdata-maps';
+  title = 'Big Data Maps';
 }
