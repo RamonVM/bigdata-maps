@@ -20,7 +20,7 @@
        <b> Unidad Economica </b>
        <select  name="selectedUnidad" id="selectedUnidad" [(ngModel)]="selectedUnidad">
         <option *ngFor="let uni of arrActividades; let i = index" [value]="uni.tipo">
-          {{uni.descripcion}}
+          {{uni.categoria}}
         </option>
       </select>
       {{selectedUnidad}}
